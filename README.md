@@ -1,4 +1,4 @@
-# <center> [Multimodal 3D Few-Shot Classification via Gaussian Mixture Discriminant Analysis]() </center>
+# <center> Multimodal 3D Few-Shot Classification via Gaussian Mixture Discriminant Analysis </center>
 Implementation of Multimodal 3D Few-Shot Classification via Gaussian Mixture Discriminant Analysis, a few-shot framework designed for CLIP and other vision-language models.
 
 ## Introduction
