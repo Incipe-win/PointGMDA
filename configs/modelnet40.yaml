@@ -1,0 +1,33 @@
+# ------ root_path/dataset_name ------
+root_path: "data"
+
+# ------ Basic Config ------
+dataset: "modelnet40"
+shots: 16
+backbone: "uni3d"
+backbone_name: "vit_b16"
+
+subsample_classes: "base"
+augment_epoch: 10
+
+num_views: 10
+
+lr: 0.0001
+train_epoch: 20
+init_beta: 1
+init_alpha: 0.8
+init_gamma: 0.1
+training_feat_num: 900
+training_free_feat_num: 800
+w_training: [0.2, 0.8]
+w_training_free: [0.5, 0.5]
+eps: 0.001 # 0.01 for 1/2-shot, 0.001 for others
+keys_mse_weight: 0.1 # 特征一致性损失权重
+clip_mse_weight: 0.1 # 权重一致性损失权重
+res_l2_weight: 0.01 # res参数的L2正则化权重
+value_weights_l2_weight: 0.01 # value_weights的L2正则化权重
+search_hp: True
+search_scale: [7, 7, 1]
+search_step: [200, 20, 20]
+keys_mse_decay: 0.95
+clip_mse_decay: 0.95
