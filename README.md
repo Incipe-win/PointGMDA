@@ -45,4 +45,6 @@ python few_shots.py --model create_uni3d --npoints 2048 --clip-model ViT-H-16 --
 ````
 ## Acknowledgment
 Our implementation is mainly based on the following codebase. We gratefully thank the authors for their wonderful works.
-[PointGPT](https://github.com/CGuangyan-BIT/PointGPT),[APE](https://github.com/yangyangyang127/APE),[Cross-Modality-Feature-Fusion-Network](https://github.com/LexieYang/Cross-Modality-Feature-Fusion-Network),[A Hard-to-Beat Baseline for Training-free CLIP-Based Adaptation](https://github.com/mrflogs/ICLR24)
+[PointGPT](https://github.com/CGuangyan-BIT/PointGPT), [APE](https://github.com/yangyangyang127/APE), [Cross-Modality-Feature-Fusion-Network](https://github.com/LexieYang/Cross-Modality-Feature-Fusion-Network), [A Hard-to-Beat Baseline for Training-free CLIP-Based Adaptation](https://github.com/mrflogs/ICLR24)
+## Citation
+
