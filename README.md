@@ -33,12 +33,15 @@ python run_evaluate.py
 ````
 ### $5$-way $1$-shot & $5$-shot
 ````bash
-cd 
+cd 5-way_1-shot_5-shot
+
 python few_shots.py --ckpt ckpt/uni3d-b.pt --config configs/scanobjectnn.yaml # or modelnet40.yaml
 ````
 ### $w$-way $k$-shot
 ````bash
-python few_shots.py --model create_uni3d --npoints 2048 --clip-model ViT-H-16 --pc-model eva02_base_patch14_448 --pc-feat-dim 768 --evaluate_3d --ckpt_path ckpt/uni3d-b.pt --config configs/modelnet40.yaml # or modelnet40.yaml
+cd w-way_s-shot
+
+python few_shots.py --model create_uni3d --npoints 2048 --clip-model ViT-H-16 --pc-model eva02_base_patch14_448 --pc-feat-dim 768 --evaluate_3d --ckpt_path ckpt/uni3d-b.pt --config configs/modelnet40.yaml # or scanobjectnn.yaml
 ````
 ## Acknowledgment
 Our implementation is mainly based on the following codebase. We gratefully thank the authors for their wonderful works.
